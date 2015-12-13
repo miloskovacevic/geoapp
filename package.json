@@ -1,0 +1,31 @@
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app-client.js",
+  "dependencies": {
+    "babel-core": "^6.3.15",
+    "babel-loader": "^6.2.0",
+    "babel-preset-react": "^6.3.13",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.3",
+    "moment": "^2.10.6",
+    "react": "^0.14.3",
+    "webpack": "^1.12.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "prestart": "webpack",
+    "start": "node app-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miloskovacevic/shopping-cart.git"
+  },
+  "author": "Milos Kovacevic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miloskovacevic/shopping-cart/issues"
+  },
+  "homepage": "https://github.com/miloskovacevic/shopping-cart#readme"
+}
