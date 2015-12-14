@@ -7,7 +7,7 @@ var LocationList = React.createClass({
         var locations = this.props.locations.map(function (location, i) {
             var active = self.props.activeLocationAddress == location.address;
             return <LocatonItem address={location.address} timestamp={location.timestamp}
-                    active={active} onClick={this.props.onClick} />
+                    active={active} onClick={self.props.searchForAddress} />
         });
 
         if(!locations.length){
