@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <project version="4" />
+=======
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="PROJECT" libraries="{gmaps}" />
+    <includedPredefinedLibrary name="ECMAScript 6" />
+  </component>
+</project>
+>>>>>>> 57c0ae3a7b2cbe5607d02a1700f24c734d0425df

@@ -1,7 +1,7 @@
 var React = require('react');
 
-var Search = require('./Search');
-var Map = require('./Map');
+//var Search = require('./Search');
+//var Map = require('./Map');
 var CurrentLocation = require('./CurrentLocation');
 var LocationList = require('./LocationList');
 
@@ -98,8 +98,10 @@ var APP = React.createClass({
             }
         });
 
+
         //<Search searchForAddress={this.searchForAddress} />
        // <Map lat={this.state.mapCoordinates.lat} lng={this.state.mapCoordinates.lng} />
+
     },
 
     render() {
@@ -114,7 +116,6 @@ var APP = React.createClass({
                 <LocationList locations={this.state.favorites} activeLocationAddress={this.state.currentAddress}
                               searchForAddress={this.searchForAddress}
                     />
-
             </div>
 
         );
