@@ -2,7 +2,8 @@ var React = require('react');
 
 var CurrentLocation = React.createClass({
     toggleFavorite(){
-        this.props.onFavoriteToggle(this.props.address);
+        var address = this.props.address;
+        this.props.onFavoriteToggle(address);
     },
     render(){
         var starClassName = "glyphicon glyphicon-star-empty";
